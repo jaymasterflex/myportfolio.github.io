@@ -1,0 +1,234 @@
+
+
+body {
+    font-family: 'IBM Plex Serif',
+    serif;
+    width: 100%;
+  
+    font-weight: 300;
+    font-size: 15pt;
+    background: #251f11;
+}
+
+header {
+        font-family: 'IBM Plex Serif', serif;
+        font-size: 50px;
+        font-weight: 900;
+        background: -webkit-linear-gradient(top, #8f6B29, #FDE08D, #DF9F28);
+        background: linear-gradient(top, #8f6B29, #FDE08D, #DF9F28);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+header ~ strong, #value {
+        font-family:
+        'IBM Plex Serif', serif;
+        font-style: italic;
+        
+        padding-bottom: 10px;
+         font-size: 25px;
+         font-weight: 900;
+         background: -webkit-linear-gradient(top, #8f6B29, #FDE08D, #DF9F28);
+         background: linear-gradient(top, #8f6B29, #FDE08D, #DF9F28);
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+}
+
+.pic-div {
+    position: relative;
+    top: 3rem;  
+    left: 30%;
+}
+
+.my-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+
+#github {
+    background:  -webkit-linear-gradient(#c79844, #110);
+}
+
+#twitter {
+    background: -webkit-linear-gradient(#c79844, #110);
+}
+#project {
+    background: -webkit-linear-gradient(#c79844, #110);
+}
+
+.gold-bar {
+    width: 100%;
+    background: #c79844;
+    float: left;
+}
+.gold {
+    padding-top: 5px;
+}
+
+img {
+    box-shadow: 2px 2px 7px #222;
+}
+
+#padBtm {
+    position: relative;
+    top: 2rem;
+    
+}
+ #socials {
+     position: relative;
+     top: 11rem;
+ }
+.typewriter #frontend {
+
+    position: absolute;
+    top: 5rem;
+    
+    text-align: center;
+    color: #897129;
+    
+    overflow: scroll;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
+    animation:
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+.typewriter2 {
+    padding-top: 50px;
+}
+#value {
+    position: relative;
+    text-align: center;
+    top: 10.5rem;
+}
+#value2 {
+    position: relative;
+    top: 7.5rem;
+    font-size: 35px;
+    z-index: -1;
+    font-weight: bolder;
+    color: rgba(149, 141, 123, 0.3);
+}
+
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: orange;
+    }
+}
+
+#frontend2 {
+    position: absolute;
+    font-size: 30px;
+    top: 5rem;
+    z-index: -1;
+    font-weight: bolder;
+    color: rgba(149, 141, 123, 0.2);
+    
+}
+
+p {
+    position: relative;
+    top: 7rem;
+    color: whitesmoke;
+    
+}
+
+.icon-box {
+    position: relative;
+    top: 13rem;
+}
+
+.box {
+    width: 100px;
+    height: 150px;
+    background-color: rgba(137, 113, 16, 0.6);
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+h2 {
+    font-family: 'IBM Plex Serif',
+    serif;
+    font-style: italic;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 900;
+    background: -webkit-linear-gradient(top, #8f6B29, #FDE08D, #DF9F28);
+    background: linear-gradient(top, #8f6B29, #FDE08D, #DF9F28);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+label {
+
+}
+
+.btn {
+    border: 0;
+    color: #e2f;
+    width: 95%;
+    background: -webkit-linear-gradient(top, #8f6B29, #FDE08D, #DF9F28);
+    background: linear-gradient(top, #8f6B29, #FDE08D, #DF9F28);
+}
+.btn-div {
+    padding-top: 30px;
+}
+
+.modal-content {
+    background: #e1b150;
+}
+
+.modal-body {
+    font-family: 'IBM Plex Serif',
+    serif;
+    font-style: italic;
+}
+#text-div {
+    display: none;
+}
+
+#recipient-name, #message-text {
+    background: #a39370;
+    border: 0;
+}
+
+h4 {
+    font-family: 'IBM Plex Serif',
+    serif;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.hh {
+    position: absolute;
+    opacity: 0.1;
+    z-index: -1;
+    width: 300px;
+}
